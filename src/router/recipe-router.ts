@@ -1,5 +1,5 @@
 import { Request, Response, Router } from "express";
-import { RecipeService } from "../services/RecipeService";
+import { RecipeService } from "../service/RecipeService";
 
 const recipeRouter = Router();
 

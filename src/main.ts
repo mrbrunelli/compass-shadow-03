@@ -2,7 +2,7 @@ import "dotenv/config";
 import express from "express";
 import mongoose from "mongoose";
 import { env } from "./config/env";
-import { recipeRouter } from "./routes/recipe-routes";
+import { recipeRouter } from "./router/recipe-router";
 
 const app = express();
 

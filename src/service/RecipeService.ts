@@ -1,4 +1,4 @@
-import { Recipe } from "../models/Recipe";
+import { Recipe } from "../model/Recipe";
 
 export class RecipeService {
   async createNewRecipe(dto: any): Promise<void> {
